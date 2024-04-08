@@ -1,0 +1,52 @@
+.home{
+    background-image: url('../../images/water.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vi;
+    margin-left: -40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -40px;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+.submit-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.submit-log{
+    background-color: #0E87CC;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    transition: .5s;
+}
+.submit-log:hover{
+    cursor: pointer;
+    border: 2px solid #0E87CC;
+    color: #0E87CC;
+    background-color: #fff;
+}
+.submit-reg{
+    background-color: #fff;
+    border: 2px solid #0E87CC;
+    padding: 10px;
+    border-radius: 6px;
+    color: #0E87CC;
+    transition: .5s;
+}
+.submit-reg:hover{
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0E87CC;
+}
